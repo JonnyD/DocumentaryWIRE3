@@ -172,18 +172,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="WatchlistCriteria.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/DW/WatchlistBundle/Criteria/WatchlistCriteria.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1044">
-                  <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#47#91#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Watchlist.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/DW/WatchlistBundle/Entity/Watchlist.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -224,11 +212,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="security.yml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/config/security.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="983">
                   <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ActivityController.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/DW/ActivityBundle/Controller/Publc/ActivityController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -287,7 +285,6 @@
         <option value="$PROJECT_DIR$/src/DW/ActivityBundle/Resources/views/Publc/Widget/recentActivity.html.twig" />
         <option value="$PROJECT_DIR$/src/DW/CommentBundle/EventListener/MapCommentsToUserListener.php" />
         <option value="$PROJECT_DIR$/src/DW/DocumentaryBundle/Resources/config/doctrine/Documentary.orm.yml" />
-        <option value="$PROJECT_DIR$/src/DW/ActivityBundle/Controller/Publc/ActivityController.php" />
         <option value="$PROJECT_DIR$/src/DW/DocumentaryBundle/Criteria/DocumentaryCriteria.php" />
         <option value="$PROJECT_DIR$/src/DW/DocumentaryBundle/Repository/DocumentaryRepository.php" />
         <option value="$PROJECT_DIR$/src/DW/DocumentaryBundle/Twig/FeaturedDocumentariesExtension.php" />
@@ -329,6 +326,7 @@
         <option value="$PROJECT_DIR$/src/DW/UserBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/DW/SiteBundle/Resources/views/Publc/Widget/social.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/DW/ActivityBundle/Controller/Publc/ActivityController.php" />
       </list>
     </option>
   </component>
@@ -1554,6 +1552,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ActivityBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Publc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentaryWIRE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentaryWIRE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1677,12 +1705,12 @@
       <workItem from="1486817033912" duration="37129000" />
       <workItem from="1487439533406" duration="51497000" />
       <workItem from="1487618219311" duration="30792000" />
-      <workItem from="1488201180355" duration="22000" />
+      <workItem from="1488201180355" duration="645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216456000" />
+    <option name="totallyTimeSpent" value="217079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="48" width="3070" height="1752" extended-state="6" />
@@ -1718,13 +1746,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DW/DocumentaryBundle/Repository/DocumentaryRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DW/DocumentaryBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1891,6 +1912,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1061">
           <caret line="194" column="20" lean-forward="false" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,7 +1935,7 @@
         <state relative-caret-position="1044">
           <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
-            <element signature="e#47#91#0#PHP" expanded="true" />
+            <element signature="e#47#91#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2102,6 +2124,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="983">
           <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DW/ActivityBundle/Controller/Publc/ActivityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
